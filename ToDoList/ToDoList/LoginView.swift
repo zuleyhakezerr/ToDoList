@@ -9,7 +9,26 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            //Header
+            ZStack{
+                RoundedRectangle(cornerRadius: 0)
+                    .foregroundColor(Color.pink)
+                VStack{
+                    Text("TO DO LİST")
+                        .font(.system(size:30))
+                        .foregroundColor(Color.white)
+                    Text("Get Things Done")
+                        .foregroundColor(Color.white)
+                }
+            }
+            .frame(width:UIScreen.main.bounds.width*3
+                   , height: 300)
+            //Login Form
+            
+            //Create Account
+            
+        }
     }
 }
 
