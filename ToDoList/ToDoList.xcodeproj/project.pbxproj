@@ -32,6 +32,7 @@
 		3AEA60B62BDA9D510007C91F /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA60B52BDA9D510007C91F /* NewItemViewViewModel.swift */; };
 		3AEA60B82BDA9D660007C91F /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA60B72BDA9D660007C91F /* LoginViewViewModel.swift */; };
 		3AEA60BA2BDA9D880007C91F /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA60B92BDA9D880007C91F /* RegisterViewViewModel.swift */; };
+		3AFCF2782C038802008D56A9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCF2772C038802008D56A9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		3AEA60B52BDA9D510007C91F /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		3AEA60B72BDA9D660007C91F /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		3AEA60B92BDA9D880007C91F /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		3AFCF2772C038802008D56A9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		3A6659AB2BB6AF2E00A9AAAA = {
 			isa = PBXGroup;
 			children = (
+				3AFCF2772C038802008D56A9 /* Media.xcassets */,
 				3A6659B62BB6AF2E00A9AAAA /* ToDoList */,
 				3A6659C72BB6AF2F00A9AAAA /* ToDoListTests */,
 				3A6659D12BB6AF2F00A9AAAA /* ToDoListUITests */,
@@ -324,6 +327,7 @@
 			files = (
 				3A6659BF2BB6AF2F00A9AAAA /* Preview Assets.xcassets in Resources */,
 				3A6659BC2BB6AF2F00A9AAAA /* Assets.xcassets in Resources */,
+				3AFCF2782C038802008D56A9 /* Media.xcassets in Resources */,
 				3A4A92152BBD8875006F4839 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
